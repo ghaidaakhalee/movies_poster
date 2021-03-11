@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundimg {
+  text-align: center;
+  background-image: url("https://media.giphy.com/media/o1ncFNtD5eDUk/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.container-md {
+  text-align: center;
+  padding: 10px;
+  margin-top: 25px;
+  width: 500px;
+  height: 400px;
+  position: relative;
+  top: 200px;
+  color: #111;
+
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.116);
+}
+.h1 {
+  position: relative;
+  top: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.d-flex {
+  align-items: center;
+}
+
+.img-fluid {
+  height: 50px;
+  width: 50px;
+}
+
+.text-sm-center {
+  color: #ffffff;
+}
+
+.text-sm-center:hover {
+  color: rgb(73, 73, 64);
+}
+
+.me-2 {
+  align-items: center;
+}
+
+.container-fluid {
+  padding-top: 20px;
+}
+
+.card {
+  box-shadow: 10px 10px 10px rgb(51, 51, 51);
+  color: whitesmoke;
+  width: 18rem;
+  margin: 10px;
+
+  background-color: rgb(27, 27, 27);
+}
+
+.img-fluid {
+  height: 150px;
+  width: 200px;
+}
+
+.home {
+  animation-name: anim;
+  animation-direction: alternate-reverse;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+@keyframes anim {
+  0% {
+    display: none;
+    color: rgb(238, 238, 10);
+    background-color: rgba(17, 16, 16, 0.685);
+  }
+
+  100% {
+    background-color: rgba(255, 255, 255, 0.116);
+  }
+}
+.errorMsg {
+  color: red;
+  background-color: rgba(17, 16, 16, 0.685);
+}
+
+span {
+  color: rgb(224, 224, 64);
+}
+
+.ffa {
+  width: 60px;
+  height: 50px;
+}
+.button {
+  border: none;
+  background: transparent;
+  color: #ffffff;
+}
+
+.favoriteIcon {
+  width: 40px;
+  height: 30px;
+}
+
+.poster {
+  height: 350px;
+}
+
+.laterIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.RemovefavoriteIcon {
+  width: 50px;
+  height: 40px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.RemoveWatchiteIcon {
+  width: 60px;
+  height: 50px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+label {
+  padding: 10px;
+}
+
+.errorMessage {
+  background-color: rgba(0, 0, 0, 0.705);
+  color: red;
+}
+
+.cinma {
+  height: 150px;
+  width: 350px;
+  position: relative;
+}
+
+.watchLater {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.favButoon {
+  position: relative;
+  top: 50px;
+}
+
+.backgroundFavorite {
+  background-image: url("https://media.giphy.com/media/xT1XGNBg6LzR3Wqu9G/giphy.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.wachTime {
+  background-color: rgb(27, 27, 27);
+  border: rgb(27, 27, 27);
+  color: white;
+  text-align: center;
+}
+.form {
+  width: 50%;
+  height: 40px;
+  background-color: #0c0c0c96;
+  /* border: none; */
+  color: white;
+  font-size: 20px;
+  border: rgb(243, 243, 105);
+  text-align: center;
+}
+.NoFavoriteList {
+  color: rgb(139, 140, 141);
+  position: relative;
+  top: 180px;
+}
+
+.input {
+  height: 40px;
+  width: 550px;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.116);
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+.popCorn {
+  position: relative;
+  right: 40px;
+}
+
+.movetime {
+  position: relative;
+  top: 25px;
+  left: 50px;
+}
+
+@media only screen and (max-width: 850px) {
+  .form {
+    font-size: 10px;
+    height: 30px;
+    width: 400px;
+  }
+  .searchButton {
+    height: 29px;
+    width: 60px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .watchLater {
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+  .FavRemoveBtn {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .img-fluid {
+    height: 70px;
+    width: 150px;
+    position: relative;
+    top: 20px;
+  }
+
+  .SearchBackground {
+    background-image: none;
+  }
+  .NoFavoriteList {
+    font-size: 15px;
+  }
+  .imgWatch {
+    width: 300px;
+    height: 150px;
+  }
+  .container-md {
+    width: 300px;
+    height: 350px;
+  }
+  .movetime {
+    padding-right: 0px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+  }
+  .cinma {
+    position: relative;
+    right: 100px;
+    top: 90px;
+    width: 110px;
+    height: 70px;
+  }
+  .popCorn {
+    position: relative;
+    top: 70px;
+    right: 100px;
+  }
+  .img {
+    width: 150px;
+    /* display: flex; */
+    justify-content: center;
+  }
+}
